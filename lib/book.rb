@@ -5,5 +5,9 @@ def initialize(title)
   @title = title
 end
 
+def turn_page
+  self.page_count +=1
+end
+
 end
 
